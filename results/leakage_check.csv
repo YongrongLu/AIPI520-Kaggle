@@ -1,0 +1,5 @@
+version,cv_auroc_mean,cv_auroc_sd,note
+Final LightGBM,0.98617,0.00063,
+Without the exact first-donation date,0.98583,0.00066,
+Also masking all donation information from 2014,0.98529,0.00074,41 training accounts first donated in 2014 (41.5% renewed)
+Also removing account-ID order,0.97372,0.00125,

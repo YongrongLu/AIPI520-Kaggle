@@ -1,0 +1,9 @@
+model,type,cv_auroc_mean,cv_auroc_sd
+LightGBM,model,0.98617,0.00063
+XGBoost,model,0.9854,0.00052
+CatBoost,model,0.98411,0.00089
+Logistic regression,model,0.98226,0.00142
+"LightGBM + LR (3:2, final)",rank blend,0.98755,
+LightGBM + XGBoost + LR,rank blend,0.98752,
+"All four models, equal weights",rank blend,0.98738,
+Three tree models,rank blend,0.98681,

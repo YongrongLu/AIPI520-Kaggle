@@ -1,0 +1,11 @@
+variant,n_features,cv_auroc_mean,cv_auroc_sd,change_vs_baseline
+"None (baseline, 78 features)",78,0.98306,0.00085,0.0
+Remove Geography,66,0.98343,0.00195,0.00037
+Remove Account-ID batch stats only,72,0.98196,0.00102,-0.0011
+Remove Account-ID order (all),71,0.9704,0.00151,-0.01266
+Remove Tickets,64,0.98111,0.00032,-0.00195
+Remove Donations,70,0.98064,0.00095,-0.00242
+Remove Per-season subscription seats 2005-12,70,0.98281,0.00099,-0.00025
+"Remove Last package, location, section",74,0.98308,0.00077,2e-05
+Geography -> keep d_min only,67,0.98609,0.00064,0.00303
+Geography -> keep d_min + ZIP wages,68,0.98528,0.00077,0.00222

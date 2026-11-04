@@ -1,0 +1,10 @@
+change_from_default,cv_auroc_mean,cv_auroc_sd
+"default: 15 leaves, 60% columns",0.98554,0.00046
+{'num_leaves': 7},0.98541,0.00069
+"{'num_leaves': 4, 'n_estimators': 1000}",0.98455,0.00066
+"{'num_leaves': 7, 'min_child_samples': 40}",0.98531,0.00052
+"{'num_leaves': 7, 'colsample_bytree': 0.3}",0.98592,0.00071
+"{'num_leaves': 7, 'n_estimators': 1000, 'learning_rate': 0.01}",0.98559,0.00071
+"{'num_leaves': 7, 'reg_lambda': 10, 'min_child_samples': 30}",0.98498,0.00043
+"{'num_leaves': 15, 'colsample_bytree': 0.3, 'min_child_samples': 40}",0.98554,0.00059
+"{'max_depth': 3, 'num_leaves': 8, 'n_estimators': 900}",0.98494,0.00077

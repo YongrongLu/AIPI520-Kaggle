@@ -1,0 +1,9 @@
+data/
+outputs/
+*.pkl
+*.csv
+catboost_info/
+__pycache__/
+.DS_Store
+!results/*.csv
+*.zip

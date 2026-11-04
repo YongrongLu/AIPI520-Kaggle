@@ -1,0 +1,68 @@
+feature,group,description
+id_batch_size,Account-ID order,"Accounts in the same creation batch (IDs within 1,000)"
+id_batch_sub13,Account-ID order,Share of the batch with a 2013-14 subscription (no labels used)
+id_batch_tk,Account-ID order,Share of the batch with a ticket purchase
+id_gap_next,Account-ID order,Gap to the next account ID
+id_gap_prev,Account-ID order,Gap to the previous account ID
+id_num,Account-ID order,Account ID decoded from base 62 (creation order)
+id_rank,Account-ID order,"Percentile of id_num among all 19,833 accounts"
+d_min,Distance,Miles from billing ZIP to the nearest of four venues
+don_2013,Donations,Amount donated in 2013
+don_avg,Donations,Average donation
+don_first_yr,Donations,Year of first donation
+don_life,Donations,Lifetime amount donated
+don_n,Donations,Lifetime number of donations
+don_years,Donations,Years since first donation
+has_ship,Donations,Has a shipping address
+relationship,Donations,"Relationship type (e.g. vendor, education participant)"
+fd_after_apr14,First-donation date,First donation on or after 1 Apr 2014
+fd_days,First-donation date,"Days from 1 Jan 2014 to the first donation (may postdate the season, see leakage_check.csv)"
+in_subs,Subscription history,Has any subscription record
+last_location,Subscription history,Venue of the latest subscription
+last_package,Subscription history,Package of the latest subscription
+last_price,Subscription history,Price level of the latest subscription
+last_seats,Subscription history,Seats in the latest subscription
+last_section,Subscription history,Section of the latest subscription
+last_tier,Subscription history,Tier of the latest subscription
+multi_subs,Subscription history,Records flagged as multiple subscriptions
+n_locations,Subscription history,Distinct venues subscribed to
+price_mean,Subscription history,Mean price level
+seats_mean,Subscription history,Mean seats per subscription
+sub_2005,Subscription history,Seats x tier subscribed in 2005-06
+sub_2006,Subscription history,Seats x tier subscribed in 2006-07
+sub_2007,Subscription history,Seats x tier subscribed in 2007-08
+sub_2008,Subscription history,Seats x tier subscribed in 2008-09
+sub_2009,Subscription history,Seats x tier subscribed in 2009-10
+sub_2010,Subscription history,Seats x tier subscribed in 2010-11
+sub_2011,Subscription history,Seats x tier subscribed in 2011-12
+sub_2012,Subscription history,Seats x tier subscribed in 2012-13
+sub_2013,Subscription history,Seats x tier subscribed in 2013-14
+sub_density,Subscription history,Share of seasons in that span with a subscription
+sub_first,Subscription history,First season subscribed (start year)
+sub_full_frac,Subscription history,Share of subscriptions that were the Full package
+sub_last,Subscription history,Last season subscribed (start year)
+sub_longest,Subscription history,Longest run of consecutive seasons
+sub_n,Subscription history,Number of distinct seasons subscribed
+sub_n_last3,Subscription history,Seasons subscribed in 2011-12 to 2013-14
+sub_n_last5,Subscription history,Seasons subscribed in 2009-10 to 2013-14
+sub_rows,Subscription history,Number of subscription records
+sub_since_last,Subscription history,Seasons between the last subscription and 2014-15
+sub_span,Subscription history,Seasons from first to last subscription
+sub_streak,Subscription history,Consecutive seasons subscribed ending in 2013-14
+tier_mean,Subscription history,Mean subscription tier
+tier_slope5,Subscription history,Slope of seats x tier over the last five seasons
+tier_trend,Subscription history,Latest tier minus mean tier
+in_tk,Tickets,Has any ticket record
+tk_2010,Tickets,Ticket purchases in 2010-11
+tk_2011,Tickets,Ticket purchases in 2011-12
+tk_2012,Tickets,Ticket purchases in 2012-13
+tk_2013,Tickets,Ticket purchases in 2013-14
+tk_family,Tickets,Family-concert purchases
+tk_first,Tickets,First season with a ticket purchase
+tk_last,Tickets,Last season with a ticket purchase
+tk_mkt,Tickets,Purchases with a recorded marketing source
+tk_price,Tickets,Mean ticket price level
+tk_rows,Tickets,Single-ticket purchases
+tk_seasons,Tickets,Seasons with a ticket purchase
+tk_seats,Tickets,Seats bought as single tickets
+tk_sets,Tickets,Distinct concert sets attended

@@ -1,0 +1,7 @@
+step,n_features,cv_auroc_mean,cv_auroc_sd,gain
+Subscription history,35,0.95222,0.00078,
++ Ticket purchases,49,0.95986,0.00266,0.00764
++ Donation totals,57,0.97236,0.00225,0.0125
++ Distance to nearest venue,58,0.9781,0.00102,0.00574
++ Exact first-donation date,60,0.97848,0.00104,0.00038
++ Account-ID order,67,0.98605,0.00067,0.00757

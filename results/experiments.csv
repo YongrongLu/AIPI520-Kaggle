@@ -1,0 +1,7 @@
+experiment,compared_on,cv_auroc_reference,cv_auroc_with_change,change
+"ID-neighbour activity (label-free, +-5/+-25 IDs)","LightGBM, early settings",0.98554,0.98491,-0.00063
+Household: same ZIP within +-3 IDs,"LightGBM, final settings",0.98617,0.98575,-0.00042
+"Neighbour labels, out of fold","LightGBM, final settings",0.98617,0.98591,-0.00026
+ExtraTrees added to the blend,LightGBM 3 + LR 2 + this 1,0.98755,0.98745,-0.0001
+Random forest added to the blend,LightGBM 3 + LR 2 + this 1,0.98755,0.98742,-0.00013
+Spline logistic regression in place of plain LR,LightGBM 3 + this 2,0.98755,0.98621,-0.00134
